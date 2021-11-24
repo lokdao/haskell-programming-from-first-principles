@@ -1,1 +1,1 @@
-# Chapter 6 - Notes
+# Chapter 7 - Notes
