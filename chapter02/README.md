@@ -1,11 +1,9 @@
 # Chapter 2 - Notes
+</br>
 
 ## Key terms
-<br>
-
-*Expression*: An expression can be a value, a combination of values or a function
-
-*Value*: an expression that is in irreducible form.
+- *Expression*: An expression can be a value, a combination of values or a function
+- *Value*: an expression that is in irreducible form.
 
 ```haskell
 # Expression - examples
@@ -16,11 +14,9 @@ x = x + 1
 2
 ```
 
-</br><hr>
+</br>
 
 ## Functions
-<br>
-
 **A function is an expression which is applied to a single argument and always returns a result.**
 
 - Functions in Haskell are applied to a **SINGLE argument**. While we may see **multiple arguments** passed to a function, behind the scenes there is a **series of nested functions** that are applied to a single argument.
@@ -34,11 +30,9 @@ x = x + 1
 (1, 4)
 ```
 
-</br><hr>
+</br>
 
 ## Associativity & Precedence
-<br>
-
 Operators and functions have a default associativity and precedence.
 ```haskell
 # Checking the associativity and precedence of the * operator
@@ -62,4 +56,21 @@ infixr  8
 2 ^ 3 ^ 4
 # is evaluated as
 2 ^ (3 ^ 4)
+```
+
+</br>
+
+## Let and Where
+`let` introduces an expression meaning it can be used wherever you can have an expression, while `where` is a declaration. 
+
+**Example - let**
+```haskell
+printInc n = let plusTwo = n + 2
+             in print plusTwo 
+```
+
+**Example - where**
+```haskell
+printInc n = print plusTwo
+    where plusTwo = n + 2
 ```
