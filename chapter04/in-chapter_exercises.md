@@ -3,8 +3,6 @@
 
 ## 4.3 Exercises: Mood Swing (p.90-91)
 
-</br>
-
 **Data type** 
 ```haskell
 data Mood = Blah | Woot deriving Show

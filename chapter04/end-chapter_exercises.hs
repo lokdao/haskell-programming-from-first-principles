@@ -4,7 +4,7 @@ also = ["Quake", "The Simons"]
 allAwesome = [awesome, also]
 
 -- 1
--- Length type signature may be: length :: [a] -> Int
+-- length type signature may be: length :: [a] -> Int
 
 -- 2
 -- length [1, 2, 3, 4, 5]           -> 5

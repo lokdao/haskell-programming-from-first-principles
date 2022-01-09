@@ -2,7 +2,6 @@
 </br>
 
 ## 3.4 Exercises: Scope (p.73)
-
 </br>
 1. These lines of code are from a REPL session. Is y in scope for z? 
 
