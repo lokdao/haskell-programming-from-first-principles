@@ -2,8 +2,8 @@
 </br>
 
 ## Key terms
-- *Expression*: An expression can be a value, a combination of values or a function
-- *Value*: an expression that is in irreducible form.
+- **Expression**: An expression can be a value, a combination of values or a function
+- **Value**: an expression that is in irreducible form.
 
 ```haskell
 -- Expression - examples
@@ -61,7 +61,7 @@ infixr  8
 </br>
 
 ## Let and Where
-`let` introduces an expression meaning it can be used wherever you can have an expression, while `where` is a declaration. 
+`let` introduces an expression; meaning it can be used wherever you can have an expression, while `where` is a declaration. 
 
 **Example - let**
 ```haskell
