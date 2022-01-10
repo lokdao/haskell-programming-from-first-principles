@@ -2,7 +2,7 @@
 </br>
 
 ## Typeclasses
-- A typeclass defines how a set of types are consumed or used in computations
+- A typeclass defines how a set of types is consumed or used in computations
 - Typeclasses may have a hierarchy / inherit from other typeclasses
   - For instance, all `Fractional` numbers implement the `Num` typeclass, but not all `Num` are `Fractional`
 - Typeclasses can be derived or instanciated

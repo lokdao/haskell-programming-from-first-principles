@@ -39,13 +39,3 @@ instance (Eq a, Eq b) => Eq (EitherOr a b) where
       (==) (Goodbye x) (Goodbye x') = x == x'
       (==) _ _                      = False
 ```
-
-</br>
-
-## 
-
-
-</br>
-
-## 5.5 Exercises: Parametricity (p.140)
-
