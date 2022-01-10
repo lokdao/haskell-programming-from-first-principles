@@ -6,6 +6,8 @@
 - A fully applied function with its arguments is evaluated to produce an output or result
 - Higher Order Functions are functions that accept functions as arguments
 
+<br/>
+
 ## Anonymous Functions
 - Anonymous functions (aka **Lambda functions**) are nameless functions
 - Lambda functions are most often used when a function is passed as an argument to a higher order function, and if this is the only place in one's code where such function will be used (i.e.: as an argument) 
