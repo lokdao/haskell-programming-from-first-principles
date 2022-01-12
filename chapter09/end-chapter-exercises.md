@@ -40,7 +40,7 @@ onlyFirstCap' = toUpper . head
 </br>
 
 ## Ciphers
-See file cipher.hs
+See file [cipher.hs](https://github.com/lokdao/haskell-programming-from-first-principles/blob/main/chapter09/cipher.hs)
 
 </br>
 
