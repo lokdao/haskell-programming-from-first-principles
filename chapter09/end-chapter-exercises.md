@@ -76,7 +76,7 @@ squish (x:xs) = x ++ squish xs
 
 -- 6
 squishMap :: (a -> [b]) -> [a] -> [b] 
-squishMap f = squishMap . map f
+squishMap f = squish . map f
 
 -- 7
 squishAgain :: [[a]] -> [a] 
