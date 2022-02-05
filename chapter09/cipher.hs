@@ -1,7 +1,7 @@
 import Data.Char
 
 ------------------------
--- My own take on Caesar's cipher and decipher functions 
+-- My take on Caesar's cipher and decipher functions 
 -- based on my current Haskell knowledge
 ------------------------
 
@@ -13,7 +13,7 @@ caesar n = substitute (+n)
 
 -- Input: Offset used to cipher the text
 --        Text to decipher
--- Output: Ciphered text
+-- Output: Deciphered text
 unCaesar :: Int -> String -> String
 unCaesar n = substitute (subtract n)
 

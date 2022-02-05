@@ -32,10 +32,7 @@ onlyFirstCap xs = toUpper (head xs)
 -- 6
 onlyFirstCap' :: String -> Char
 onlyFirstCap' = toUpper . head 
-
 ```
-
-</br>
 
 </br>
 
