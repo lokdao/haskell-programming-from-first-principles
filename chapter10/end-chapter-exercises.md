@@ -47,7 +47,7 @@ myElem :: Eq a => a -> [a] -> Bool
 myElem x = foldr (\a b -> b || a == x) False
 
 myElem' :: Eq a => a -> [a] -> Bool
-myElem' x = any (==x)
+myElem' x = myAny (==x)
 
 -- 4
 myReverse :: [a] -> [a]

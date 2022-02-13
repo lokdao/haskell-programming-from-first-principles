@@ -24,7 +24,7 @@
 data Dog = Dog'
 --   [1]   [2]
 -- [1] is a type constructor, taking no arguments (called a nullary constructor or type constant)
--- [1] is a data constructor and is a constant value since it also takes no arguments
+-- [2] is a data constructor and is a constant value since it also takes no arguments
 
 data Dog a = Dog' a
 --  In this example, both type and data constructors take an argument

@@ -1,4 +1,4 @@
-# Chapter 10 - End-chapter exercises
+# Chapter 11 - End-chapter exercises
 </br>
 
 ## Multiple choice
