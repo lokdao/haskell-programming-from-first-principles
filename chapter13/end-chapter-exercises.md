@@ -3,6 +3,10 @@
 
 ## Hangman game logic
 
+Code can be found [here](https://github.com/lokdao/haskell-programming-from-first-principles/blob/main/chapter13/hello/hangman)
+
+</br>
+
 ## Modifying code
 1. Modified Caesar Cipher [(link)](https://github.com/lokdao/haskell-programming-from-first-principles/blob/main/chapter13/caesar-cipher.hs) / Modified Vigenere Cipher [(link)](https://github.com/lokdao/haskell-programming-from-first-principles/blob/main/chapter13/vigenere-cipher.hs)
 
